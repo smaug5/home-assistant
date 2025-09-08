@@ -38,6 +38,7 @@ build.json @home-assistant/supervisor
 /homeassistant/scripts/check_config.py @kellerza
 
 # Integrations
+/homeassistant/components/hello_state/ @smaug5
 /homeassistant/components/abode/ @shred86
 /tests/components/abode/ @shred86
 /homeassistant/components/acaia/ @zweckj

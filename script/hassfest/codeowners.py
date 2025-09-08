@@ -68,7 +68,8 @@ def generate_and_validate(integrations: dict[str, Integration], config: Config) 
         if integration.integration_type == "virtual":
             continue
 
-        codeowners = integration.manifest["codeowners"]
+        # codeowners = integration.manifest["codeowners"]
+        codeowners = integration.manifest.get("codeowners")
 
         if not codeowners:
             continue
